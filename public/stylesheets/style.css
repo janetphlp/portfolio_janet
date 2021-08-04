@@ -1,8 +1,105 @@
 body {
-  /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.footerClass {
+  background-color: #03172b;
+  color: #18bc9c;
+  height: 28px;
+  text-align: center;
+}
+
+.wrapperClass {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.wrapperClass1 {
+  flex:1;
+  text-align: center;
+  color: #18bc9c;
+  font-weight: 500;
+}
+
+.wrapperClass2 {
+  flex:1;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+.containerClass {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+
+.wrapperClass3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapperClass4 {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 50px;
+}
+
+.wrapperClass5 {
+  flex:1;
+  color: #26b195; 
+  font-weight: 500;
+}
+
+.wrapperClass6 {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.wrapperClass7 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.wrapperClass8 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.wrapperClass9 {
+  max-width: 20rem;
+  height:500px;
+  opacity:.9
+}
+
+.wrapperClass10 {
+  float:right;
+  background-color: #116669;
+}
+
+.wrapperClass11 {
+  min-width: 20rem; 
+  max-width: 20rem;
+  opacity:.9
+}
+
+.wrapperClass12 {
+  color: #26b195;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.wrapperClass13 {
+  display: flex;
+  flex-direction: row; 
+  color: white;
 }
