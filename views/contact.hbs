@@ -1,0 +1,56 @@
+<!-- ======= Contact Html ======= -->
+
+      <div class="container">
+        <h2 style="color: #26b195; margin-top: 20px;margin-bottom: 50px;">{{title}}</h2>
+        <div class="container" style="display: flex;flex-direction: row; color: white;" data-aos="fade-in">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt-fill"></i>
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>University Avenue West, Waterloo, Ontario</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>janetphlp@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 6476711370</p>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.1835244814406!2d-80.5416599845469!3d43.45676557912846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf41f8aa350d3%3A0xec5717874dc55905!2sUniversity%20Ave%20W%2C%20Waterloo%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1628086120516!5m2!1sen!2sus" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div>
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div>
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button class="badge bg-success" style="margin-top: 20px;" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
